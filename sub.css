@@ -1,0 +1,96 @@
+body {
+ 	height:100%;
+ 	background-size:100% 710px;
+ 	background:url(image.jpg);
+ 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 50px;
+  }
+  .subSection{
+
+	height:151px;
+	background-color: gray;
+	opacity: .3;
+}
+nav div h1,p{
+	font-size: 18PX;
+	color: #fff;
+}
+
+nav{
+	position: fixed;
+	width:99%;
+	height:150px;
+	background-color: darkblue;
+	z-index:99;
+	border-radius:10px;
+	opacity:.8;
+}
+
+nav h1{
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	padding-bottom: 5px;
+	border-radius: 30px;
+	padding:10px;
+	text-align: right;
+}
+
+nav a:hover{ 
+	background: #fff;
+	color:darkblue;
+	opacity: .6;
+
+}
+#nav {
+	padding-top: 40px;
+	background-color: skyblue;
+	width:900px;
+	height:400px;
+	margin:auto;
+	border-radius:10px;
+	opacity: .7;
+}
+
+#nav label,input{
+	width:30px;
+	height: 30px;
+	
+	vertical-align: 20px;
+}
+#nav input:hover{
+	background: gray;
+	color:darkblue;
+	opacity: .4;
+}
+
+
+#nav label{
+	color: darkblue;
+	font-size: 20px;
+}
+
+
+#nav a{
+	font-size: 25px;
+	color:darkblue;
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: 5px;
+	border-radius: 60px;
+	padding:30px;
+	
+}
+
+#nav a:hover{ 
+
+	background: darkblue;
+	color:#fff;
+	opacity: .9;
+}
